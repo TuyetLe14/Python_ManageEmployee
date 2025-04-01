@@ -1,5 +1,4 @@
-# ketnoi.py
-import pyodbc
+import pyodbc # type: ignore
 
 class CnnDatabase:
     def __init__(self, server, database, username=None, password=None):
